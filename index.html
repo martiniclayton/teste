@@ -3,13 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste</title>
+    <title>Login - Bela Pizza</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #7c1515;
+        }
+
+        .logo{
+            width: 300px;
+            height: 500px;
+            background-color: #7c1515;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login{
+            width: 500px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-    <input type="text" placeholder="Digite o seu usuario">
-    <input type="text" placeholder="Digite a sua senha">
+    <div class="principal">
+        <div class="logo">
+            <img width="200px" height="120px" src="logopizza.png">
+            <h2>Acesse a sua conta</h2>
+            <button>Sair</button>
+        </div>
+        <div class="login">
+            <h2>Login</h2>
+            <input type="text" placeholder="Digite o seu usuário">
+            <input type="password" placeholder="Digite a sua senha">
 
-    <a href="menu.html" style="text-decoration: none;"><button>Entrar</button></a>
+            <a href="menu.html" style="text-decoration: none;"><button>Entrar</button></a>
+        </div>
+    </div>
     
 </body>
 </html>
